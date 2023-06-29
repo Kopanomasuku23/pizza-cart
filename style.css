@@ -1,5 +1,5 @@
 body{
-    background-color: #02a9ea ;
+    
 text-align: center;
 }
 
@@ -11,7 +11,7 @@ text-align: center;
 }
 
 .medium-pizza{
-    background-color: #E54F6D;
+    background-color: #f9df1a;
     margin: 1em;
     padding: 1em;
     border-radius: 0.5em;
@@ -20,7 +20,7 @@ text-align: center;
 
 
 .large-pizza{
-    background-color: #B91372;
+    background-color: #fedf10cd;
     margin: 1em;
     padding: 1em;
     border-radius: 0.5em;
@@ -28,7 +28,7 @@ text-align: center;
 
 
 .contact{
-    background-color: #f36309f3;
+    background-color: hsla(23, 93%, 49%, 0.953);
     margin: 1em;
     padding: 1em;
 }
@@ -52,10 +52,11 @@ h1{
 }
 
 body{
-    background-color: #02A9EA;
+    background-color: #320a4ba3;
     text-align: center;
 }
 .cart{
-    background-color: #ea7a02;
-    text-align: center;
+    background-color: hsla(23, 93%, 49%, 0.953);
+    margin: 1em;
+    padding: 1em;
 }

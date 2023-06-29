@@ -17,13 +17,14 @@
   <main class="class=" container text-center"
     x-data="{Total:0, counter:0, pepperoniPizza:0, chickenPizza:0, mushroomPizza:0, totalpaymentAmount:0, checkoutMessage:'', show:false, displayError:''}">
 
-    <h1>Kopano Pizza Perfect</h1>
+    <h1>Kopano's Pizza Perfect</h1>
 
-
-    <div class="cart container">
-
+    <div class="cart">
+      
     
     <span><b>Shopping Cart</b> </span><span x-text="counter"></span> <br>
+    <img src="images/shopping cart.png" alt="" width="100" />
+    
     <div>
       <p>Small</p><span x-text="pepperoniPizza"></span>
       <button type="button" class="btn btn-warning" @click="(counter++), (pepperoniPizza++), (Total+=78)">+</button>
@@ -72,7 +73,7 @@
     <div class="pizza">
       <div class="small-pizza">
         <h2>Small Pizza</h2>
-        <img src="images/pizza-icon-15.jpg" alt="" width="125" />
+        <img src="images/pizza perfect.jpg" alt="" width="150" />
         <h3>R78.00</h3>
         <p>
           Creamy Tikka Veg, Cream cheese base, mush room diced, diced tomato,
@@ -84,7 +85,7 @@
 
       <div class="medium-pizza">
         <h2>Medium Pizza</h2>
-        <img src="images/pizza-icon-15.jpg" alt="" width="175" />
+        <img src="images/pizza perfect.jpg" alt="" width="175" />
         <h3>R98.00</h3>
         <p>
           Creamy Tikka Veg, Cream cheese base, mush room diced, diced tomato,
@@ -97,7 +98,7 @@
       <div class="large-pizza">
 
         <h2>Large Pizza</h2>
-        <img src="images/pizza-icon-15.jpg" alt="" width="225" />
+        <img src="images/pizza perfect.jpg" alt="" width="225" />
         <h3>R189.00</h3>
         <p>
           Creamy Tikka Veg, Cream cheese base, mush room diced, diced tomato,
